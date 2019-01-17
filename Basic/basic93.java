@@ -8,22 +8,23 @@ public class basic93{
     }
     public static void run(){
         ArrayList<Integer> list = new ArrayList<Integer>();
-        int even = 0;
-        int odd = 0;
+        boolean case1 = false, case2 = false;
 
         while(list.size() < 5){
-            list.add((int) (Math.random() * 10));
+            list.add((int) (Math.random() * 10) * 10);
         }
 
         System.out.println(list);
 
-        for(int i = 0 ; i < list.size() ; i++){
-            if(list.get(i) % 2 == 0){
-                even++;
-            }else{
-                odd++;
+        for(int i = 0 ; i < list.size() - 1 ; i++){
+            int n = i +1;
+            if(list.get(i) == 10 && list.get(n) == 10){
+                case1 = true;
+            }                        
+            if(list.get(i) == 20 && list.get(n) == 20){   
+                case2 = true;
             }
         }
-        System.out.println("Even: " + even + "\nOdd: " + odd);
+        System.out.println("Contains an element 10 next to 10 ? " + case1 + "\ncontains an element 20 next to 20 ? " + case2);
     }   
 }
