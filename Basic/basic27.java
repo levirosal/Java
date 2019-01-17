@@ -24,7 +24,7 @@ public class basic27{
         System.out.println("Equivalent hexadecimal number: " + valHexa);
     }
 
-    public static int octalForDec(String valOctal){
+    private static int octalForDec(String valOctal){
         int value = 0;
         
         for (int i=valOctal.length(); i > 0; i--){
@@ -33,7 +33,7 @@ public class basic27{
         return value;
     }
 
-    public static String decForHex(int valDec1){
+    private static String decForHex(int valDec1){
         char[] hexa = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
         int rest = -1;
         StringBuilder sb = new StringBuilder();
