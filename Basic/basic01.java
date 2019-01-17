@@ -3,7 +3,7 @@
 // Hello 
 // Alexandra Abramov
 
-public class basic1{
+public class basic01{
     public static void main(String[] args) {
         run();
     }

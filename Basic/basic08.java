@@ -6,7 +6,7 @@
 // J  J  aaaaa   V V  aaaaa                                                
 //  JJ  a     a   V  a     a
 
-public class basic8{
+public class basic08{
     public static void main(String[] args) {
         run();
     }

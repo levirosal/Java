@@ -4,7 +4,7 @@
 // Expected Output :
 // 16
 
-public class basic3{
+public class basic03{
     public static void main(String[] args) {
         run();
     }

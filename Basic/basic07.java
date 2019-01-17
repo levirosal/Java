@@ -10,7 +10,7 @@
 
 import java.util.Scanner;
 
-public class basic7{
+public class basic07{
     public static void main(String[] args) {
         run();
     }

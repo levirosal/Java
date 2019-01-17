@@ -10,7 +10,7 @@
 // 19 
 // 13
 
-public class basic4{
+public class basic04{
     public static void main(String[] args) {
         run();
     }
