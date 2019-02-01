@@ -1,4 +1,4 @@
-// 104. Write a Java program to create a new array from a given array of integers, 
+// 104. Write a Java program to create a new array from a given array of integers,
 // new array will contain the elements from the given array before the last element value 10.
 import java.util.*;
 
@@ -22,8 +22,8 @@ public class basic104{
                     list2.add(list1.get(n));
                 }
                 break;
-            }                            
+            }
         }
-        System.out.println("New array : " + list2);            
+        System.out.println("New array : " + list2);
     }
 }
