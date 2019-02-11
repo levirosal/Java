@@ -1,4 +1,18 @@
-// 8. Write a Java program that takes the user to provide a single character from the alphabet. Print Vowel or Consonant, depending on the user input. If the user input is not a letter (between a and z or A and Z), or is a string of length > 1, print an error message.
+/* 8. Write a Java method to compute the future investment value at a given interest rate for a specified number of years. Go to the editor
+Sample data (Monthly compounded) and Output:
+Input the investment amount: 1000
+Input the rate of interest: 10
+Input number of years: 5
+
+Expected Output:
+
+Years    FutureValue                                     
+1            1104.71                                     
+2            1220.39                                     
+3            1348.18                                     
+4            1489.35                                     
+5            1645.31
+*/
 
 import java.util.*;
 

@@ -1,8 +1,10 @@
-// 9. Write a Java program that takes a year from user and print whether that year is a leap year or not.
-// Test Data
-// Input the year: 2016
-// Expected Output :
-// 2016 is a leap year
+/* 10. Write a Java method to check whether a year (integer) entered by the user is a leap year or not. Go to the editor
+
+Expected Output:
+
+Input a year: 2017                                                                        
+false
+*/
 
 import java.util.*;
 

@@ -1,8 +1,12 @@
-// 9. Write a Java program that takes a year from user and print whether that year is a leap year or not.
-// Test Data
-// Input the year: 2016
-// Expected Output :
-// 2016 is a leap year
+/* 13. Write Java methods to calculate the area of a triangle. Go to the editor
+
+Expected Output:
+
+Input Side-1: 10                                                                               
+Input Side-2: 15                                                                               
+Input Side-3: 20                                                                              
+The area of the triangle is 72.6184377413890
+*/
 
 import java.util.*;
 

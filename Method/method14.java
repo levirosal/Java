@@ -1,8 +1,11 @@
-// 9. Write a Java program that takes a year from user and print whether that year is a leap year or not.
-// Test Data
-// Input the year: 2016
-// Expected Output :
-// 2016 is a leap year
+/* 14. Write a Java method to create the area of a pentagon. Go to the editor
+
+Expected Output:
+
+Input the number of sides: 5                             
+Input the side: 6                                        
+The area of the pentagon is 61.93718642120281
+*/
 
 import java.util.*;
 

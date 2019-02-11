@@ -1,9 +1,19 @@
-// 9. Write a Java program that takes a year from user and print whether that year is a leap year or not.
-// Test Data
-// Input the year: 2016
-// Expected Output :
-// 2016 is a leap year
+/* 12. Write a Java method (takes a number n as input) to displays an n-by-n matrix. Go to the editor
 
+Expected Output:
+
+Input a number: 10                                                                         
+1 0 0 1 1 0 0 0 1 1                                                                       
+0 0 1 0 1 0 1 0 0 0                                                                        
+0 1 0 1 0 0 0 0 0 1                                                                       
+1 1 1 0 0 0 0 1 1 1                                                                        
+1 1 0 1 1 1 0 1 0 0                                                                      
+1 0 0 0 1 1 0 0 0 0                                                                       
+0 0 1 0 0 0 0 1 1 1                                                                      
+1 1 0 1 0 1 0 0 1 0                                                                       
+0 0 1 0 0 0 0 1 1 0                                                        
+1 1 1 0 0 1 1 1 1 0
+*/
 import java.util.*;
 
 public class method12{

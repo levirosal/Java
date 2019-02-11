@@ -1,4 +1,13 @@
-// 8. Write a Java program that takes the user to provide a single character from the alphabet. Print Vowel or Consonant, depending on the user input. If the user input is not a letter (between a and z or A and Z), or is a string of length > 1, print an error message.
+/* 7. Write a Java method to display the first 50 pentagonal numbers. Go to the editor
+Note: A pentagonal number is a figurate number that extends the concept of triangular and square numbers to the pentagon, but, unlike the first two, the patterns involved in the construction of pentagonal numbers are not rotationally symmetrical.
+Expected Output:
+
+1     5     12    22    35    51    70    92    117   145
+176   210   247   287   330   376   425   477   532   590
+651   715   782   852   925   1001  1080  1162  1247  1335
+1426  1520  1617  1717  1820  1926  2035  2147  2262  2380
+2501  2625  2752  2882  3015  3151  3290  3432  3577  3725  
+*/
 
 import java.util.*;
 

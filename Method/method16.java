@@ -1,8 +1,16 @@
-// 9. Write a Java program that takes a year from user and print whether that year is a leap year or not.
-// Test Data
-// Input the year: 2016
-// Expected Output :
-// 2016 is a leap year
+/* 16. Write a Java method to find all twin prime numbers less than 100. Go to the editor
+
+Expected Output:
+
+(3, 5)                                                   
+(5, 7)                                                   
+(11, 13)                                                 
+(17, 19)                                                 
+(29, 31)                                                 
+(41, 43)                                                 
+(59, 61)                                                 
+(71, 73) 
+*/
 
 import java.util.*;
 

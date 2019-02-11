@@ -1,4 +1,10 @@
-// 8. Write a Java program that takes the user to provide a single character from the alphabet. Print Vowel or Consonant, depending on the user input. If the user input is not a letter (between a and z or A and Z), or is a string of length > 1, print an error message.
+/* 5. Write a Java method to count all words in a string. Go to the editor
+Test Data:
+Input the string: The quick brown fox jumps over the lazy dog.
+Expected Output:
+
+Number of words in the string: 9
+*/
 
 import java.util.*;
 

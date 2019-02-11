@@ -1,12 +1,12 @@
-/* 31. Write a program that accepts three numbers from the user and prints "increasing" if the numbers are in increasing order, "decreasing" if the numbers are in decreasing order, and "Neither increasing or decreasing order" otherwise. Go to the editor
+/* 3. Write a Java method to display the middle character of a string. Go to the editor
+Note: a) If the length of the string is odd there will be two middle characters.
+b) If the length of the string is even there will be one middle character.
+Test Data:
+Input a string: 350 
+Expected Output:
 
-Test Data
-Input first number: 1524
-Input second number: 2345
-Input third number: 3321
-Expected Output :
-
-Increasing order
+                                                                          
+The middle character in the string: 5
 */
 import java.util.*;
 

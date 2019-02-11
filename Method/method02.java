@@ -1,12 +1,11 @@
-/* 31. Write a program that accepts three numbers from the user and prints "increasing" if the numbers are in increasing order, "decreasing" if the numbers are in decreasing order, and "Neither increasing or decreasing order" otherwise. Go to the editor
+/* 2. Write a Java method to compute the average of three numbers. Go to the editor
+Test Data:
+Input the first number: 25 
+Input the second number: 45
+Input the third number: 65
+Expected Output:
 
-Test Data
-Input first number: 1524
-Input second number: 2345
-Input third number: 3321
-Expected Output :
-
-Increasing order
+The average value is 45.0
 */
 import java.util.*;
 
