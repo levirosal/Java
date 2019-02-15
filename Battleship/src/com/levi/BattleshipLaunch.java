@@ -6,7 +6,6 @@ public class BattleshipLaunch{
   private BattleshipActions actions = new BattleshipActions();
   private ArrayList<BattleshipActions> shipsList = new ArrayList<BattleshipActions>();
   private int numOfGuesses = 0;
-  private String name;
 
   /* Creates the ships and calls the method to generate the location */  
   private void setUpGame(){
@@ -46,7 +45,6 @@ public class BattleshipLaunch{
     }
     finishGame();
   }
-  /* Check the guess and shows the result of the check */  
 
   /* Calls the method to check the guess and shows the result of the check if result is "miss" */
   private void checkUserGuess(String userGuess){
