@@ -3,6 +3,7 @@ package com.levi;
 import java.util.*;
 
 /**
+ * Calls for the creation of ships and requests the user's guess.
  * @version 2.0
  * @since 2019
  * @author Levi Rosal

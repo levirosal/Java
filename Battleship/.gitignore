@@ -2,5 +2,7 @@
 *.idea
 *.iml
 Battleship/out
+Battleship/javadoc
+
 
 

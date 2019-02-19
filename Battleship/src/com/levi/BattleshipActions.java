@@ -3,6 +3,7 @@ package com.levi;
 import java.util.*;
 
 /**
+ * Checks and other actions of the game.
  * @version 2.0
  * @since 2019
  * @author Levi Rosal
@@ -13,7 +14,7 @@ public class BattleshipActions {
 
   /**
    * Sets ships in ArrayList allShips.
-   * @param allShips
+   * @param allShips All ships.
    */
   public void setAllShips(final List<Ship> allShips) {
     this.allShips = allShips;
@@ -44,7 +45,7 @@ public class BattleshipActions {
 
   /**
    * Checks the user's guess and removes the location if the guess is correct.
-   * @param userGuess
+   * @param userGuess User Guess.
    */
   public void checkShot(final String userGuess) {
     numOfGuesses++;

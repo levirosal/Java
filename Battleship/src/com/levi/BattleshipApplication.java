@@ -1,6 +1,7 @@
 package com.levi;
 
 /**
+ * Main, starts the game.
  * @version 2.0
  * @since 2019
  * @author Levi Rosal

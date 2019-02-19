@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
+ * Creates ships and generates locations.
  * @version 2.0
  * @since 2019
  * @author Levi Rosal
@@ -19,7 +20,7 @@ public class Ship {
 
     /**
      * Sets name and location of ship.
-     * @param name - Name of ship.
+     * @param name Name of ship.
      */
     public Ship(final String name) {
         int count = 0;
@@ -57,7 +58,7 @@ public class Ship {
 
     /**
      * Removes location of ArrayList.
-     * @param location - Location for remove.
+     * @param location Location for remove.
      */
     public void removeLocation(final String location) {
         locations.remove(location);
@@ -74,7 +75,7 @@ public class Ship {
 
     /**
      * Generates locations of ships.
-     * @param size - Size of ships.
+     * @param size Size of ships.
      * @return List - Locations.
      */
     public List<String> generateLocations(final int size){
