@@ -1,5 +1,6 @@
-### Java ###
-# Compiled class file
-Battleship/class/com/levi/*.class
-*.iml
+*.class
 *.idea
+*.iml
+Battleship/out
+
+

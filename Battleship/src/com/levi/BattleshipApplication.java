@@ -1,7 +1,14 @@
 package com.levi;
 
+/**
+ * @version 2.0
+ * @since 2019
+ * @author Levi Rosal
+ */
 public class BattleshipApplication {
-    /* Start the game */
+    /**
+     * Starts the game
+     */
     public static void main(String[] args) {
         BattleshipLaunch game = new BattleshipLaunch();
         game.launch();

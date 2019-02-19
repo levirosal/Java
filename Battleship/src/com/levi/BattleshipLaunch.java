@@ -2,11 +2,18 @@ package com.levi;
 
 import java.util.*;
 
-public class BattleshipLaunch{
+/**
+ * @version 2.0
+ * @since 2019
+ * @author Levi Rosal
+ */
+public class BattleshipLaunch {
   private BattleshipActions actions;
   private List<Ship> shipList;
 
-  /* Creates the ships and calls the method to generate the location */
+  /**
+   * Creates the ships and set ships in ArrayList.
+   */
   public void launch(){
     shipList = new ArrayList<>();
     shipList.add(new Ship("Battlecruiser"));
@@ -16,7 +23,7 @@ public class BattleshipLaunch{
     actions = new BattleshipActions();
     actions.setAllShips(shipList);
 
-    System.out.println("Your goal is to sink three ships.");
+    System.out.println("\nYour goal is to sink three ships.");
     System.out.println("- 1 Battlecruiser\n- 1 Aircraft Carrier\n- 1 Submarine");
     System.out.println("Try to sink them all in the fewest number of guesses\n");
     System.out.println(" A *  *  *  *  *  *  *");
@@ -30,10 +37,12 @@ public class BattleshipLaunch{
 
   }
 
-  /* Calls the method to insert your shot and method to check guess */  
+  /**
+   * Calls the method to insert your shot and method to check guess
+   */
   public void start() {
     while(!actions.isAllShipDestroyed()) {
-      final String userGuess = actions.getUserInput("Enter the location of your shot: ");
+      final String userGuess = actions.getUserInput();
       actions.checkShot(userGuess);
     }
     actions.finish();
