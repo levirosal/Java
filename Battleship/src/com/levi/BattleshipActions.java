@@ -71,54 +71,6 @@ public class BattleshipActions {
 
   }
 
-//  /**
-//   * Shows the result of the check.
-//   * @param userGuess
-//   */
-//  public void checkShot(final String userGuess) {
-//    numOfGuesses++;
-//    String result;
-//
-//    result = checkYourself(userGuess);
-//    if(result.equals("hit")){
-//      System.out.println("You HIT a !!! \n");
-//    }
-//
-//    if(result.equals("kill")) {
-//      System.out.println("\nYOU DESTROYED A  !!!\n");
-//    }
-//
-//    if(result.equals("miss")) {
-//      System.out.println("You missed the shot." + "\n");
-//    }
-//
-//  }
-//
-//  /**
-//   * Checks the user guess and remove location if guess is correct.
-//   * @param userInput
-//   * @return String with result of user guess(hit, kill, miss).
-//   */
-//  private String checkYourself(final String userInput) {
-//    String result = "miss";
-//
-//    for(Ship ship : allShips) {
-//      if(ship.getLocations().contains(userInput)) {
-//        result = "hit";
-//        System.out.println(ship.getName());
-//        ship.removeLocation(userInput);
-//      }
-//
-//      if(ship.getLocations().size() == 0) {
-//        result = "kill";
-//        allShips.remove(ship);
-//        break;
-//      }
-//    }
-//
-//    return result;
-//  }
-
   /**
    * Shows the result of game and number of guess used.
    */
