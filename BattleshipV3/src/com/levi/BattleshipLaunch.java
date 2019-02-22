@@ -1,5 +1,7 @@
 package com.levi;
 
+import java.util.List;
+
 /**
  * Calls for the creation of ships and requests the user's guess.
  * @version 3.0
@@ -8,6 +10,8 @@ package com.levi;
  */
 public class BattleshipLaunch {
   private BattleshipActions actions;
+  private List<String> locations1;
+  private List<String> locations2;
 
   /**
    * Creates new game.
@@ -23,7 +27,10 @@ public class BattleshipLaunch {
     System.out.println(" G *  *  *  *  *  *  *");
     System.out.println("   0  1  2  3  4  5  6\n");
 
-    new Game();
+    Game game = new Game();
+
+    locations1 = game.getLocations1();
+    locations2 = game.getLocations2();
 
   }
 
@@ -34,6 +41,9 @@ public class BattleshipLaunch {
     actions = new BattleshipActions();
     String userGuess;
     int player = 0;
+
+    actions.setLocations1(locations1);
+    actions.setLocations2(locations2);
 
     while (true) {
       player = 1;

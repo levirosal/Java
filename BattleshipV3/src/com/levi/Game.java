@@ -13,7 +13,6 @@ import java.util.Scanner;
  * @author Levi Rosal
  */
 public class Game {
-    private BattleshipActions actions;
     private List<String> locations1;
     private List<String> locations2;
     private static final String alphabet = "abcdefg";
@@ -22,17 +21,28 @@ public class Game {
      * Sets player and location of ship.
      */
     public Game() {
-        actions = new BattleshipActions();
-
         locations1 = reader(1);
-        actions.setAllShips(1, locations1);
-        System.out.println("Location Player 1: " + locations1);  // Show location ship.
-
         locations2 = reader(2);
-        actions.setAllShips(2, locations2);
+
+        System.out.println("Location Player 1: " + locations1);  // Show location ship.
         System.out.println("Location Player 2: " + locations2);  // Show location ship.
     }
 
+    /**
+     * Returns locations of player 1 ships.
+     * @return List - List of locations.
+     */
+    public List<String> getLocations1() {
+        return locations1;
+    }
+
+    /**
+     * Returns locations of player2 ships.
+     * @return List - List of locations.
+     */
+    public List<String> getLocations2() {
+        return locations2;
+    }
 
     /**
      * Reads file and insert locations.
@@ -44,14 +54,14 @@ public class Game {
         List<String> alphaCells = new ArrayList<>();
         int line = 0;
         String temp;
-//        String tem = "/home/levi-ia/Documentos/github/Java/BattleshipV3/src/com/levi/";
+        String tem = "/home/levi-ia/Documentos/github/Java/BattleshipV3/src/com/levi/";
 
         System.out.print("Insert file location of Player " + player + ": ");
         String file = in.nextLine();
 
         try {
-//            FileReader arq = new FileReader(tem.concat(file));
-            FileReader arq = new FileReader(file);
+            FileReader arq = new FileReader(tem.concat(file));
+//            FileReader arq = new FileReader(file);
             BufferedReader lerArq = new BufferedReader(arq);
 
             String linha = lerArq.readLine();

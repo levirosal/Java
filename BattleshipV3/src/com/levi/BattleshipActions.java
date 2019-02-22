@@ -9,21 +9,24 @@ import java.util.*;
  * @author Levi Rosal
  */
 public class BattleshipActions {
-    private static List<String> locations1;
-    private static List<String> locations2;
+    private List<String> locations1;
+    private List<String> locations2;
 
 
     /**
-     * Sets locations of ships.
-     * @param player Player
-     * @param locs locations of ships.
+     * Sets locations of player 1 ships.
+     * @param locations1 Location of ships.
      */
-    public void setAllShips(final int player, final List<String> locs) {
-        if (player == 1) {
-            locations1 = locs;
-        } else {
-            locations2 = locs;
-        }
+    public void setLocations1(List<String> locations1) {
+        this.locations1 = locations1;
+    }
+
+    /**
+     * Sets locations of player 2 ships.
+     * @param locations2 Location of ships.
+     */
+    public void setLocations2(List<String> locations2) {
+        this.locations2 = locations2;
     }
 
     /**
@@ -51,7 +54,6 @@ public class BattleshipActions {
 
         }
         return locations1;
-
     }
 
     /**
