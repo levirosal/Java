@@ -15,18 +15,18 @@ public class BattleshipActions {
 
     /**
      * Sets locations of player 1 ships.
-     * @param locations1 Location of ships.
+     * @param locs1 Location of ships.
      */
-    public void setLocations1(List<String> locations1) {
-        this.locations1 = locations1;
+    public void setLocations1(List<String> locs1) {
+        this.locations1 = new ArrayList<>(locs1);
     }
 
     /**
      * Sets locations of player 2 ships.
-     * @param locations2 Location of ships.
+     * @param locs2 Location of ships.
      */
-    public void setLocations2(List<String> locations2) {
-        this.locations2 = locations2;
+    public void setLocations2(List<String> locs2) {
+        this.locations2 = new ArrayList<>(locs2);
     }
 
     /**
@@ -37,7 +37,6 @@ public class BattleshipActions {
     public void removeLocation(final int player, final String location) {
         if (player == 1) {
             locations2.remove(location);
-
         } else {
             locations1.remove(location);
         }
@@ -51,7 +50,6 @@ public class BattleshipActions {
     public List<String> getLocations(final int player) {
         if (player == 1) {
             return locations2;
-
         }
         return locations1;
     }
