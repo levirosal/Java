@@ -1,0 +1,11 @@
+*.class
+*.idea
+*.iml
+BattleshipV3/out
+BattleshipV3/javadoc
+BattleshipV3/tests
+
+
+
+
+
